@@ -1,0 +1,88 @@
+{
+  "stellarium": {
+    "base_url": "http://localhost:8090",
+    "connection_timeout": 10,
+    "screenshot_wait_time": 5
+  },
+  "output": {
+    "directory": "output",
+    "format": "jpg",
+    "resolution": {
+      "width": 7680,
+      "height": 4320,
+      "preset": "4K_UHD"
+    },
+    "quality": 95,
+    "dpi": 300,
+    "target_format": "4K_UHD",
+    "alternative_resolutions": {
+      "8K_UHD": {
+        "width": 15360,
+        "height": 8640
+      },
+      "4K_UHD": {
+        "width": 7680,
+        "height": 4320
+      },
+      "A3_300DPI": {
+        "width": 3510,
+        "height": 4950
+      },
+      "FHD": {
+        "width": 1920,
+        "height": 1080
+      }
+    }
+  },
+  "seasonal_config": {
+    "spring": {
+      "date": "04-21",
+      "milky_way_brightness": 0.3,
+      "zodiacal_light": 0.2
+    },
+    "summer": {
+      "date": "07-21",
+      "milky_way_brightness": 0.6,
+      "zodiacal_light": 0.1
+    },
+    "autumn": {
+      "date": "10-21",
+      "milky_way_brightness": 0.4,
+      "zodiacal_light": 0.2
+    },
+    "winter": {
+      "date": "01-21",
+      "milky_way_brightness": 0.2,
+      "zodiacal_light": 0.1
+    }
+  },
+  "sky_settings": {
+    "sky_culture": "modern",
+    "constellation_lines": true,
+    "constellation_labels": true,
+    "constellation_art": false,
+    "atmosphere": false,
+    "landscape": false,
+    "cardinal_points": true,
+    "milky_way": true,
+    "zodiacal_light": true,
+    "projection": "stereographic",
+    "field_of_view": 180.0,
+    "initial_azimuth": 180.0,
+    "initial_altitude": 30.0
+  },
+  "generation": {
+    "default_times": [
+      "21:00",
+      "04:00"
+    ],
+    "default_year": 2025,
+    "batch_delay": 3,
+    "retry_attempts": 3
+  },
+  "metadata": {
+    "tagline": "The sky on {date} looks nearly the same every year. Abluna \u00e2\u20ac\u201d Timeless Sky Map.",
+    "include_border": false,
+    "border_color": "#F8F7F3"
+  }
+}
